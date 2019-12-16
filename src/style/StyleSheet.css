@@ -1,0 +1,135 @@
+@font-face {
+    src: url("Roboto-Regular.ttf");
+}
+
+.text {
+    -fx-font-family: "Roboto";
+}
+
+.window {
+    -fx-pref-height: 700;
+    -fx-pref-width: 1020;
+    -fx-background-color: #1D1E2C;
+}
+
+.menuRowVBox {
+    -fx-background-color: #31323F;
+    -fx-pref-width: 240;
+}
+
+.appNameHBox {
+    -fx-pref-height: 80;
+    -fx-alignment: CENTER;
+}
+
+.appNameLabel {
+    -fx-font-size: 22px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.yearGroupVBox {
+    -fx-pref-height: 148;
+}
+
+.yearHBox {
+    -fx-background-color: #464652;
+    -fx-pref-height: 44;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.yearLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+}
+
+.semesterHBox {
+    -fx-pref-height: 52;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.selectedSemesterHBox {
+    -fx-pref-height: 52;
+    -fx-alignment: CENTER-LEFT;
+    -fx-background-color: #1D1E2C;
+}
+
+.semesterLabel {
+    -fx-font-size: 22px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.subjectRowVBox {
+    -fx-pref-width: 780;
+}
+
+.subjectGroupParentVBox {
+    -fx-alignment: TOP-CENTER;
+}
+
+.subjectGroupHBox {
+    -fx-background-color: #464652;
+    -fx-max-width: 740;
+    -fx-pref-height: 54;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.subjectGroupLabel {
+    -fx-font-size: 22px;
+    -fx-text-fill: #EEEEEE;
+}
+
+.subjectHBox {
+    -fx-background-color: #31323F;
+    -fx-max-width: 740;
+    -fx-pref-height: 62;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.subjectLabel {
+    -fx-font-size: 22px;
+    -fx-text-fill: #FFFFFF;
+}
+
+.passButtonHBox {
+    -fx-pref-width: 92;
+    -fx-max-height: 32;
+    -fx-background-radius: 4;
+    -fx-alignment: CENTER;
+}
+
+.passButtonLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #444444;
+}
+
+.preSubjectHBox {
+    -fx-background-color: #1D1E2C;
+    -fx-max-width: 740;
+    -fx-pref-height: 54;
+    -fx-alignment: CENTER-LEFT;
+}
+
+.preSubjectLabel {
+    -fx-font-size: 20px;
+    -fx-text-fill: #EEEEEE;
+}
+
+.circle {
+    -fx-stroke: #1D1E2C;
+    -fx-stroke-type: INSIDE;
+}
+
+.hardPane {
+    -fx-pref-width: 2;
+    -fx-background-color: #C5283D;
+}
+
+.mediumPane {
+    -fx-pref-width: 2;
+    -fx-background-color: #3E92CC;
+}
+
+.easyPane {
+    -fx-pref-width: 2;
+    -fx-background-color: #0DAB76;
+}

@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="ComSciReminder-Final">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/._ComSciReminder.jar!/" />
+      <root url="jar://$PROJECT_DIR$/ComSciReminder.jar.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ComSciReminder.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+
+<HBox styleClass="window"
+      xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1"
+      fx:controller="code.Year1Semester1Controller">
+    <children>
+        <VBox styleClass="menuRowVBox">
+            <children>
+                <HBox styleClass="appNameHBox">
+                    <children>
+                        <Label text="ComSci Reminder" styleClass="appNameLabel"/>
+                    </children>
+                </HBox>
+                <VBox styleClass="yearGroupVBox">
+                    <children>
+                        <HBox styleClass="yearHBox">
+                            <children>
+                                <Label text="Year 1" styleClass="yearLabel">
+                                    <HBox.margin>
+                                        <Insets left="16.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y1s1Handler" styleClass="selectedSemesterHBox">
+                            <children>
+                                <Label text="Semester 1" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y1s2Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 2" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox styleClass="yearGroupVBox">
+                    <children>
+                        <HBox styleClass="yearHBox">
+                            <children>
+                                <Label text="Year 2" styleClass="yearLabel">
+                                    <HBox.margin>
+                                        <Insets left="16.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y2s1Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 1" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y2s2Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 2" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox styleClass="yearGroupVBox">
+                    <children>
+                        <HBox styleClass="yearHBox">
+                            <children>
+                                <Label text="Year 3" styleClass="yearLabel">
+                                    <HBox.margin>
+                                        <Insets left="16.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y3s1Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 1" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y3s2Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 2" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+                <VBox styleClass="yearGroupVBox">
+                    <children>
+                        <HBox styleClass="yearHBox">
+                            <children>
+                                <Label text="Year 4" styleClass="yearLabel">
+                                    <HBox.margin>
+                                        <Insets left="16.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y4s1Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 1" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                        <HBox onMouseClicked="#y4s2Handler" styleClass="semesterHBox">
+                            <children>
+                                <Label text="Semester 2" styleClass="semesterLabel">
+                                    <HBox.margin>
+                                        <Insets left="34.0"/>
+                                    </HBox.margin>
+                                </Label>
+                            </children>
+                        </HBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+        <VBox styleClass="subjectRowVBox">
+            <children>
+                <VBox style="-fx-pref-height: 512;">
+                    <children>
+                        <VBox styleClass="subjectGroupParentVBox" style="-fx-pref-height: 314;">
+                            <children>
+                                <HBox styleClass="subjectGroupHBox">
+                                    <VBox.margin>
+                                        <Insets top="20.0"/>
+                                    </VBox.margin>
+                                    <children>
+                                        <Label text="Major Compulsory Courses" styleClass="subjectGroupLabel">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="subjectHBox">
+                                    <children>
+                                        <Pane styleClass="easyPane"/>
+                                        <Label text="01418112 : Fundamental Programming Concepts [3]"
+                                               styleClass="subjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="16.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <HBox fx:id="passButton112" onMouseClicked="#passButton112Handler"
+                                              styleClass="passButtonHBox">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                            <children>
+                                                <Label fx:id="passButton112Text" styleClass="passButtonLabel"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="preSubjectHBox">
+                                    <children>
+                                        <Circle fx:id="circle114" radius="10.0" styleClass="circle">
+                                            <HBox.margin>
+                                                <Insets left="32.0"/>
+                                            </HBox.margin>
+                                        </Circle>
+                                        <Label text="01418114 : Introduction to Computer Science [2] - Y:1 S:1 | Together"
+                                               styleClass="preSubjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="14.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="subjectHBox">
+                                    <children>
+                                        <Pane styleClass="easyPane"/>
+                                        <Label text="01418114 : Introduction to Computer Science [2]"
+                                               styleClass="subjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="16.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <HBox fx:id="passButton114" onMouseClicked="#passButton114Handler"
+                                              styleClass="passButtonHBox">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                            <children>
+                                                <Label fx:id="passButton114Text" styleClass="passButtonLabel"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="subjectHBox">
+                                    <children>
+                                        <Pane styleClass="easyPane"/>
+                                        <Label text="01418131 : Digital Computer Logic [3]" styleClass="subjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="16.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <HBox fx:id="passButton131" onMouseClicked="#passButton131Handler"
+                                              styleClass="passButtonHBox">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                            <children>
+                                                <Label fx:id="passButton131Text" styleClass="passButtonLabel"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                        <VBox styleClass="subjectGroupParentVBox" style="-fx-pref-height: 198;">
+                            <children>
+                                <HBox styleClass="subjectGroupHBox">
+                                    <VBox.margin>
+                                        <Insets top="20.0"/>
+                                    </VBox.margin>
+                                    <children>
+                                        <Label text="Major Core Courses" styleClass="subjectGroupLabel">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="subjectHBox">
+                                    <children>
+                                        <Pane styleClass="mediumPane"/>
+                                        <Label text="01417111 : Calculus I [3]" styleClass="subjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="16.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <HBox fx:id="passButton417111" onMouseClicked="#passButton417111Handler"
+                                              styleClass="passButtonHBox">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                            <children>
+                                                <Label fx:id="passButton417111Text" styleClass="passButtonLabel"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                                <HBox styleClass="subjectHBox">
+                                    <children>
+                                        <Pane styleClass="easyPane"/>
+                                        <Label text="01999111 : Knowledge of the Land [2]" styleClass="subjectLabel">
+                                            <HBox.margin>
+                                                <Insets left="16.0"/>
+                                            </HBox.margin>
+                                        </Label>
+                                        <HBox fx:id="passButton999111" onMouseClicked="#passButton999111Handler"
+                                              styleClass="passButtonHBox">
+                                            <HBox.margin>
+                                                <Insets left="24.0"/>
+                                            </HBox.margin>
+                                            <children>
+                                                <Label fx:id="passButton999111Text" styleClass="passButtonLabel"/>
+                                            </children>
+                                        </HBox>
+                                    </children>
+                                </HBox>
+                            </children>
+                        </VBox>
+                    </children>
+                </VBox>
+            </children>
+        </VBox>
+    </children>
+</HBox>
